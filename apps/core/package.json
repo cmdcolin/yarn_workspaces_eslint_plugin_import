@@ -1,0 +1,10 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Colin",
+  "license": "MIT",
+  "dependencies": {
+    "is-even": "^1.0.0"
+  }
+}
