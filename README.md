@@ -9,5 +9,8 @@ Tries to test the following scenario
 - `packages/app2` tries to use `is-even`
 
 In this case we should want to get a warning about this, but
-eslint-plugin-import does not warn about it. This repo currently produces no
-eslint warnings
+eslint-plugin-import does not warn about it (BY DEFAULT)
+
+You have to add import/no-extraneous-imports to get the right behavior here
+
+Thanks to @ljharb https://github.com/import-js/eslint-plugin-import/issues/2247
