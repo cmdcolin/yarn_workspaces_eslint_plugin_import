@@ -11,6 +11,6 @@ Tries to test the following scenario
 In this case we should want to get a warning about this, but
 eslint-plugin-import does not warn about it (BY DEFAULT)
 
-You have to add import/no-extraneous-imports to get the right behavior here
+You have to add `import/no-extraneous-dependencies` to the eslint rules to get the right behavior
 
 Thanks to @ljharb https://github.com/import-js/eslint-plugin-import/issues/2247
